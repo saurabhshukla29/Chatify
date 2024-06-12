@@ -1,0 +1,21 @@
+.container1{
+    height: 100vh;
+    width:100vw;
+    background-color: hsl(240, 15%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.container-chat{
+    height: 85vh;
+    width: 85vw;
+    background-color: hsl(0, 0%, 4%);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    @media screen and (max-width:1080px) and (min-width:720px){
+        grid-template-columns: 35% 65%;
+    }
+}
